@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  /* z-index: 10001 !important; */
+}
+
+.section-container {
+  @apply max-w-screen-2xl container mx-auto xl:px-24 px-4;
+}
+
+.subtitle {
+  @apply uppercase tracking-wide font-medium text-xl;
+}
+
+.title {
+  @apply text-4xl md:text-5xl font-bold my-2 md:leading-snug leading-snug text-black;
+}
+
+.btn-style {
+  @apply btn bg-red py-2 rounded-full border-none font-medium text-white text-lg hover:tracking-wide;
+}
+
+
+/* MENU STYLES */
+.food-img {
+  @apply h-24 object-cover;
+}
+
+.tab-btn {
+  @apply py-1 px-4 text-left mt-1;
+}
+
+.tab-img {
+  @apply w-20 h-20 object-cover;
+}
+
+/* LOGIN/SIGNUP MODAL*/
+.modal-card {
+  max-height: calc(100vh - 5em);
+  grid-column-start: 1;
+  grid-row-start: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  background: white;
+}
+
+.modal-title {
+  background: red;
+}
+
+.text-input {
+  @apply py-1 h-12 border-2 indent-3.5
+}
+
+.magnifier {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border: 1px solid #000;
+  cursor: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  pointer-events: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInBottom {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+.animate-fade-in-up {
+  animation: fadeInBottom 0.5s ease-in-out;
+}
+
+.animate-fade-in-left {
+  animation: fadeInLeft 0.5s ease-in-out;
+}
+
+
+.relative {
+  position: relative;
+}
+
+.floating-label-input {
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background: #fff;
+  position: relative;
+  transform: translateY(-1px);
+}
+
+.floating-label {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  font-size: 12px;
+  color: #999;
+  pointer-events: none;
+  transition: all 0.2s ease-out;
+  transform: translateY(-20%);
+}
+
+.floating-label-input:focus~.floating-label,
+.floating-label-input:not(:placeholder-shown)~.floating-label {
+  top: 0;
+  left: 16px;
+  font-size: 10px;
+  transform: translateY(5px);
+}
