@@ -1,0 +1,62 @@
+[
+    {
+        "_id": "642c155b2c4774f05c36ee2a",
+        "featured" : false,
+        "name": "Juicy Breakfast Tomahawk Steak",
+        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
+        "image": "/images/shop/breakfast1.png",
+        "category": "breakfast",
+        "calories": 14,
+        "price": 42
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeaa",
+        "featured" : false,
+        "name": "Ming's Favorite 4 by 4 Burger",
+        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
+        "image": "/images/shop/burger1.png",
+        "category": "burgers",
+        "calories": 69,
+        "price": 27.2
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb9",
+        "featured" : false,
+        "name": "Big Mac Chigga Slam Dunk",
+        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
+        "image": "/images/home/img2.png",
+        "category": "burgers",
+        "calories": 69,
+        "price": 27.9
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee1000a",
+        "featured" : true,
+        "name": "Spicy Fat Tranny Cat McCrispy",
+        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
+        "image": "/images/shop/feature-img1.png",
+        "category": "burgers",
+        "calories": 9999,
+        "price": 48.2
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee7c",
+        "featured" : false,
+        "name": "Hamburger Quadruple Happy Meal",
+        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
+        "image": "/images/shop/happy-meal1.png",
+        "category": "happy-meals",
+        "calories": 12,
+        "price": 94.9
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee7a",
+        "featured" : false,
+        "name": "Among Us Sprite Steroid Juice",
+        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
+        "image": "/images/shop/sprite.png",
+        "category": "beverages",
+        "calories": 9999,
+        "price": 19.2
+    }
+]
